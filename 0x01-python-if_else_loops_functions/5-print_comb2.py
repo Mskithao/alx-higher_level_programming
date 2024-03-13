@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-import random
-number = random.randint(-10000, 10000)
+for number in range(99):
+    print("{:02d}, ".format(number), end="")
+print("99")

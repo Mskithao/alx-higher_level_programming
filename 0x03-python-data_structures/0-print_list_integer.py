@@ -8,7 +8,3 @@ def print_list_integer(my_list=[]):
     for num in my_list:
         #print each interger element from 'my_list' using string formating to ensure it is printed as an integer
         print("{:d}".format(num))
-
-        #the lines below test the code
-        my_list = [1, 2, 3, 4, 5]
-        print_list_integer(my_list)

@@ -1,9 +1,13 @@
 #!/usr/bin/python3
 import random
-number = random.randint(-10, 10)
+
+# Assign a random signed integer to the variable number
+number = random.randint(-100, 100)
+
+# Check if the number is positive, negative, or zero and print the appropriate message
 if number > 0:
-    print(number, "is positive")
-if number == 0:
-    print(number,"is zero")
+    print(f"{number} is positive")
+elif number == 0:
+    print(f"{number} is zero")
 else:
- print(number, "is negative")
+    print(f"{number} is negative")
